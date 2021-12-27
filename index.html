@@ -1,3 +1,6 @@
+<!-- Author: Jeetpal Singh, Email: singhjeetpal001@gmail.com 
+This is a template, which can be used to make a good portfolio website by adding additional functionalities -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,33 +10,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeetpal Singh - Web Developer, Programmer, Software Enthusiast</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+
 </head>
 
 <body>
     <div class="container">
-        <div class='sidebar'>
+        <div class='sidebar sidebarGo'>
 
             <nav id='nav_side'>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="/intro.html">About me</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About me</a></li>
                     <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
         <div class="main">
+            <div class="icons">
+                <img class="ham" src="images/ham.png" alt="" width="23px">
+                <img class="cross" src="images/cross.png" alt="" width="23px">
+            </div>
             <div class="infoContainer1">
                 <div class="myInfo">
                     <div class="hello">Hello there, I am </div>
                     <div class="name">Jeetpal Singh</div>
                     <div class="about">Developer, Student, President</div>
-                    <div class="moreabout">I am a third year computer science student at the university of Winnipeg.</div>
-                    <div class="buttons">
-                        <button>Download CV</button>
-                        <button>Contact Me</button>
+                    <div class="moreabout">I am a third year computer science student at the university of Winnipeg.
+                    </div>
+                    <div class="buttons btn-sm">
+                        <a href="/cv.docx" target="_blank">
+                            <button class="btn">Download CV</button>
+                        </a>
+                        <a href="/contact.html"><button class="btn">Contact Me</button></a>
                     </div>
                 </div>
                 <div class="myPic">
@@ -42,6 +52,7 @@
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
